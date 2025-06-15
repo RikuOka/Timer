@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポモドーロタイマー</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/icons/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <h1>🍅 ポモドーロタイマー</h1>
+        
+        <div class="timer-display" id="timer">25:00</div>
+        
+        <div class="status work-mode" id="status">作業時間</div>
+        
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        
+        <div class="controls">
+            <button class="start-btn" id="startBtn" onclick="startTimer()">▶️ 開始</button>
+            <button class="pause-btn" id="pauseBtn" onclick="pauseTimer()">⏸️ 一時停止</button>
+            <button class="reset-btn" onclick="resetTimer()">🔄 リセット</button>
+        </div>
+        
+        <div class="session-counter">
+            完了セッション: <span id="sessionCount">0</span>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

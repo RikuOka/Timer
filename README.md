@@ -9,7 +9,7 @@
 - 音声通知
 
 ## 🔗 使用方法
-[デモサイト](https://your-username.github.io/Timer)
+[デモサイト](https://rikuoka.github.io/Timer/)
 
 ## 🛠️ 技術
 - HTML5
